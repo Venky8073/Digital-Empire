@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# DIGITAL EMPIRE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tag line : we provide latest and 100% quality assured electronics at competitive prices.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [This is a React Project built for practice purposes the website is on theme of and electonics store site it consists basic functionality but more focus is on UI the project contains Home page, About Page, Products page, Cart Page, Register Page and Login Page.](#description)
 
-### `npm start`
+## [Features](#features)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Uses Chakra UI and styled components.
+2. Register functionality.
+3. Login functionality.
+4. products and cart pages are private routes.
+5. Uses useLocation to go back to recent accessed page before login.
+6. Sort and filter functionality.
+7. Search functionality with debouncing.
+8. Good Home page and About page designs.
+9. site is fully responsive.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+1. React JS with React-Redux.
+2. Chakra UI.
+3. styled components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Api's
 
-### `npm run build`
+1. https://digital-empire.onrender.com/products
+2. https://digital-empire.onrender.com/users
+3. https://65152628dc3282a6a3cdeb86.mockapi.io/messages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## [Screenshots](#screenshots)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 1](./digital_empire/public/screenshots/Home-1.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2](./digital_empire/public/screenshots/Home-2.png)
 
-### `npm run eject`
+![Screenshot 3](./digital_empire/public/screenshots/Footer.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot 4](./digital_empire/public/screenshots/Login.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot 5](./digital_empire/public/screenshots/Products.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 6](./digital_empire/public/screenshots/Cart.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot 7](./digital_empire/public/screenshots/Checkout.png)
 
-## Learn More
+![Screenshot 8](./digital_empire/public/screenshots/Success.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screenshot 9](./digital_empire/public/screenshots/About.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+1. Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```sh
+   git clone https://github.com/zeenatabrar/concerned-picture-9849
+   ```
 
-### Analyzing the Bundle Size
+2. navigate to project folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```sh
+   cd digital_empire
+   ```
 
-### Making a Progressive Web App
+3. install the required dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```sh
+   npm install react-icons
+   npm install react-router-dom@6
+   npm install react-redux redux redux-thunk
+   npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+   npm install
+   ```
 
-### Advanced Configuration
+4. start the frontend server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```sh
+   npm run start
+   ```
 
-### Deployment
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. After following the installation steps, open your web browser.
+2. Navigate to http://localhost:3000 to access the website.
+3. Explore the different features and sections of the website.
+4. Interact with the elements and see the content.
+5. Enjoy using the website and provide feedback!
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! Here's how you can get involved:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```sh
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```sh
+   git commit -m "Add your message here"
+   ```
+4. Push your changes to your forked repository:
+   ```sh
+   git push origin feature-name
+   ```
+5. Open a pull request on GitHub and provide details about your changes.
+
+## Production Link
+
+https://digital-empire.vercel.app/
