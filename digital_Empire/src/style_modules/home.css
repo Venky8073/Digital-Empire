@@ -1,0 +1,43 @@
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  z-index: 20;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  color: white;
+  opacity: 1;
+}
+
+.text-overlay h1 {
+  font-size: 4em;
+  margin-bottom: 0.5rem;
+  /* background-image: url(https://images.saatchiart.com/saatchi/720911/art/3392086/additional_0745a33c9dde4cc92aa6b31005182c0e7a1031e9-AICC2-7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent; */
+}
+
+.text-overlay p {
+  font-size: 1.5em;
+}
+
+#latest-products,
+#features {
+  /* padding-top: 0.5rem; */
+  width: 90%;
+  margin: auto;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
